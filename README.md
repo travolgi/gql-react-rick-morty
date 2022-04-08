@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# GraphQL React Rick & Morty with color theme switcher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GraphQL React Rick & Morty](./screenshot.webp)
 
-## Available Scripts
+This application gives some information about the Rick and Morty cartoon, such us charaters, locations and episodes.
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Overview](#overview)
+  - [About App](#about-app)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Getting Started](#getting-started)
+  - [System Requirements](#system-requirements)
+  - [Installation](#installation)
+  - [Bugs](#bugs)
+  - [Contributing](#contributing)
+- [Author](#author)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### About App
 
-### `npm test`
+This application gives some information about about the Rick and Morty cartoon:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- See all charaters on the homepage
+- See all episodes on the sidebar
+- Click on a charaters, locations and episodes to see more detailed information on a separate page
+- Click through to the charaters, locations and episodes on the detail page
+- Toggle the color scheme between light and dark mode
+- Button scroll to top after the scrool
+- Error page/messages
+- LocalStorage save of the set light or dark mode theme
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Repository URL: [github](https://github.com/denielden/gql-react-rick-morty)
+- Live Site URL: [live site](https://gql-react-rick-morty.netlify.app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Css Grid
+- [React](https://reactjs.org/) - JS library
+- [React Router](https://reactrouter.com/) - For routes
+- [GraphQL](https://graphql.org/) - Data
+- [Apollo client](https://www.apollographql.com/) - Client
+- [Styled Components](https://styled-components.com/) - For styles
+- [React Spinners](https://www.npmjs.com/package/react-spinners)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I had a lot of fun in this project and I was able to learn how to:
+- write **GraphQL** Queries
+- use and configure **Apollo client** with React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I initially had trouble understanding how to use GraphQL in components and how to pass data. I find it a bit limiting the fact of having to bind the query to a component and not being able to simply return the data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Useful resources
 
-## Learn More
+- [React Router](https://reactrouter.com/docs/en/v6) - Docs
+- [Styled Components](https://styled-components.com/docs) - Docs
+- [GraphQL](https://graphql.org/) - Docs
+- [Apollo GraphQL](https://www.apollographql.com/docs/react/) - Docs
+- [Rick and Morty API - GraphQL](https://rickandmortyapi.com) - Docs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to view this project locally, you need to make sure you clone this repository and install it's dependencies.
 
-### Code Splitting
+### System Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [git][https://git-scm.com/] 2.34 or greater
+- [node][https://nodejs.org/en/] 17.5 or greater
+- [npm][https://nodejs.org/en/] 8.3.0 or greater
 
-### Analyzing the Bundle Size
+To check which versions you have installed you can run these commands:
+```
+git --version
+node --version
+npm --version
+```
+If requirements above are not installed in your computer, you'll need to install them. By clicking on them you can go to their website, which can lead you the way.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+- Clone the repository
+  ```sh
+  git clone https://github.com/denielden/gql-react-rick-morty.git
+  ```
+- Navigate to repository folder
+  ```sh
+  cd gql-react-rick-morty
+  ```
+- Install npm packages
+  ```sh
+  npm install
+  ```
+- To run the app in the development mode run in the project directory: 
+  ```sh
+  npm start
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Bugs
 
-### Advanced Configuration
+Please feel free to create an issue if you see a bug or something unexpected in the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Contributing
 
-### Deployment
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/yourFeature`)
+- Commit your Changes (`git commit -m 'Brief explanation of feature`')
+- Push to the Branch (`git push origin feature/yourFeature`)
+- Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+- Website - [denielden](https://denielden.github.io)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## **Have fun building!** 🚀

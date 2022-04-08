@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GraphQL React Rick & Morty",
+  "name": "GraphQL React Rick & Morty by denie/den",
   "icons": [
     {
       "src": "favicon.ico",
