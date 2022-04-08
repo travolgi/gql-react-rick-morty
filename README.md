@@ -21,6 +21,7 @@ This application gives some information about the Rick and Morty cartoon, such u
   - [Bugs](#bugs)
   - [Contributing](#contributing)
 - [Author](#author)
+- [Licence](#licence) 
 
 ## Overview
 
@@ -125,6 +126,11 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 ## Author
 
 - Website - [denielden](https://denielden.github.io)
+
+## Licence 
+[MIT licence](https://github.com/denielden/React-ToDo-app/blob/main/LICENSE)
+
+React is [MIT licence](https://github.com/facebook/react/blob/main/LICENSE)
 
 
 ## **Have fun building!** 🚀
