@@ -128,7 +128,7 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 - Website - [denielden](https://denielden.github.io)
 
 ## Licence 
-[MIT licence](https://github.com/denielden/React-ToDo-app/blob/main/LICENSE)
+[MIT licence](https://github.com/denielden/gql-react-rick-morty/blob/master/LICENSE)
 
 React is [MIT licence](https://github.com/facebook/react/blob/main/LICENSE)
 
