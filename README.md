@@ -2,6 +2,8 @@
 
 ![GraphQL React Rick & Morty](./screenshot.webp)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5aaf126-21aa-46ea-807f-aa6158d184d5/deploy-status)](https://app.netlify.com/sites/gql-react-rick-morty/deploys)
+
 This application gives some information about the Rick and Morty cartoon, such us charaters, locations and episodes.
 
 ## Table of contents
