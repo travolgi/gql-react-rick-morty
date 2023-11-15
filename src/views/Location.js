@@ -6,7 +6,7 @@ import Loader from '../components/Loader';
 import ErrorMessage from '../components/ErrorMessage';
 import SmallCards from '../components/SmallCards';
 
-const Location = () => {
+export default function Location() {
 	const { id } = useParams();
 	const { loading, error, data } = useQuery(LOCATION_BY_ID, {variables: {id: id} });
 
@@ -36,5 +36,3 @@ const Location = () => {
 		);
 	}
 }
-
-export default Location;

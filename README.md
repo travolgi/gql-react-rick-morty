@@ -1,20 +1,14 @@
-# GraphQL React Rick & Morty with color theme switcher
+# GraphQL & React js Rick & Morty with color theme switcher
+
+This application gives some information about the Rick and Morty cartoon, such us charaters, locations and episodes
 
 ![GraphQL React Rick & Morty](./screenshot.webp)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a5aaf126-21aa-46ea-807f-aa6158d184d5/deploy-status)](https://app.netlify.com/sites/gql-react-rick-morty/deploys)
-
-This application gives some information about the Rick and Morty cartoon, such us charaters, locations and episodes.
-
 ## Table of contents
 
-- [Overview](#overview)
-  - [About App](#about-app)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+- [About App](#about-app)
+- [Built with](#built-with)
+- [Useful resources](#useful-resources)
 - [Getting Started](#getting-started)
   - [System Requirements](#system-requirements)
   - [Installation](#installation)
@@ -23,9 +17,8 @@ This application gives some information about the Rick and Morty cartoon, such u
 - [Author](#author)
 - [Licence](#licence) 
 
-## Overview
 
-### About App
+## About App
 
 This application gives some information about about the Rick and Morty cartoon:
 
@@ -38,14 +31,7 @@ This application gives some information about about the Rick and Morty cartoon:
 - Error page/messages
 - LocalStorage save of the set light or dark mode theme
 
-### Links
-
-- Repository URL: [github](https://github.com/denielden/gql-react-rick-morty)
-- Live Site URL: [live site](https://gql-react-rick-morty.netlify.app)
-
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -57,14 +43,6 @@ This application gives some information about about the Rick and Morty cartoon:
 - [Apollo client](https://www.apollographql.com/) - Client
 - [Styled Components](https://styled-components.com/) - For styles
 - [React Spinners](https://www.npmjs.com/package/react-spinners)
-
-### What I learned
-
-I had a lot of fun in this project and I was able to learn how to:
-- write **GraphQL** Queries
-- use and configure **Apollo client** with React
-
-I initially had trouble understanding how to use GraphQL in components and how to pass data. I find it a bit limiting the fact of having to bind the query to a component and not being able to simply return the data.
 
 ### Useful resources
 
@@ -96,7 +74,7 @@ If requirements above are not installed in your computer, you'll need to install
 
 - Clone the repository
   ```sh
-  git clone https://github.com/denielden/gql-react-rick-morty.git
+  git clone https://github.com/travolgi/gql-react-rick-morty.git
   ```
 - Navigate to repository folder
   ```sh
@@ -125,12 +103,9 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 
 ## Author
 
-- Website - [denielden](https://denielden.github.io)
+- Website - [travolgi](https://travolgi.it)
 
 ## Licence 
-[MIT licence](https://github.com/denielden/gql-react-rick-morty/blob/master/LICENSE)
+[MIT licence](https://github.com/travolgi/gql-react-rick-morty/blob/master/LICENSE)
 
 React is [MIT licence](https://github.com/facebook/react/blob/main/LICENSE)
-
-
-## **Have fun building!** 🚀

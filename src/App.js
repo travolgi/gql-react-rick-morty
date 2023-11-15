@@ -20,7 +20,7 @@ import Pagination from './components/Pagination';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
-const App = () => {
+export default function App() {
 	const [theme, setTheme] = useLocalStorage('theme', 'dark'),
 			isDarkTheme = theme === 'dark',
 			toggleTheme = () => setTheme(isDarkTheme ? 'light' : 'dark');
@@ -87,5 +87,3 @@ const App = () => {
 		</ThemeProvider>
 	);
 }
-
-export default App;

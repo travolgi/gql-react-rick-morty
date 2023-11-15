@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import RingLoader from 'react-spinners/RingLoader';
 
-const Loader = () => {
+export default function Loader() {
    return (
       <DivLoading>
          <RingLoader size={150} color={'#84f85e'}  />
@@ -24,5 +24,3 @@ const DivLoading = styled.div`
    transition: all .8s ease-in-out;
    z-index: 999;
 `;
-
-export default Loader;

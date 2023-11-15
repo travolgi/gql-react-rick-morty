@@ -1,7 +1,7 @@
 import { LiStatus, ArticleCard, DivCardInfo } from '../theme/styledTags';
 import { Link } from 'react-router-dom';
 
-const SmallCards = ({ residents }) => {
+export default function SmallCards({ residents }) {
    return (
       <>
          {residents.map(resident =>
@@ -26,5 +26,3 @@ const SmallCards = ({ residents }) => {
       </>
    );
 }
- 
-export default SmallCards;

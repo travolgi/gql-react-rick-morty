@@ -7,7 +7,7 @@ import { EPISODES_DATA } from '../apollographql/queries';
 import usePageQuery from '../hooks/usePageQuery';
 import Pagination from './Pagination';
 
-const Sidebar = ({ theme }) => {
+export default function Sidebar({ theme }) {
    const [pageQuery, handlePageQuery] = usePageQuery();
 
    const { loading, error, data } = useQuery(EPISODES_DATA, {variables: {page: pageQuery} });
@@ -68,5 +68,3 @@ const UlCategories = styled.ul`
       }
    }
 `;
-
-export default Sidebar;

@@ -5,7 +5,7 @@ import darkMoon from '../img/dark-moon.svg';
 import useWindowWidth from '../hooks/useWindowWidth';
 import ToggleNav from './ToggleNav';
 
-const Header = ({ theme, toggleTheme }) => {
+export default function Header({ theme, toggleTheme }) {
    const windowWidth = useWindowWidth();
    return (
       <HeaderTag>
@@ -53,5 +53,3 @@ const DivFlex = styled.div`
 	align-items: center;
    gap: 1rem;
 `;
-
-export default Header;

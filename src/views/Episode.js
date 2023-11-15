@@ -6,7 +6,7 @@ import Loader from '../components/Loader';
 import ErrorMessage from '../components/ErrorMessage';
 import SmallCards from '../components/SmallCards';
 
-const Episode = () => {
+export default function Episode() {
    const { id } = useParams();
    const { loading, error, data } = useQuery(EPISODE_BY_ID, {variables: {id: id} });
 
@@ -34,5 +34,3 @@ const Episode = () => {
       );
    }
 }
- 
-export default Episode;

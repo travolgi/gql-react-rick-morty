@@ -6,7 +6,7 @@ import { CHARACTERS_DATA } from '../apollographql/queries';
 import Loader from '../components/Loader';
 import ErrorMessage from '../components/ErrorMessage';
 
-const Card = ({ pageQuery, calcPageNumber }) => {
+export default function Card({ pageQuery, calcPageNumber }) {
 	const { loading, error, data } = useQuery(CHARACTERS_DATA, {variables: {page: pageQuery} });
 
 	if(loading) return <Loader />
@@ -50,5 +50,3 @@ const Card = ({ pageQuery, calcPageNumber }) => {
 		);
 	}
 }
-
-export default Card;

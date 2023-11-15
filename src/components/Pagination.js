@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Pagination = ({ pages, pageQuery, handlePageQuery }) => {
+export default function Pagination({ pages, pageQuery, handlePageQuery }) {
    let numbers = Array.from({length: pages}, (_, i) => i + 1);
    const countPag = 6;
 
@@ -64,5 +64,3 @@ const DivPagination = styled.div`
       }
    }
 `;
- 
-export default Pagination;

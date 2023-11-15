@@ -1,6 +1,6 @@
 {
-  "short_name": "GraphQL React Rick & Morty",
-  "name": "GraphQL React Rick & Morty by denie/den",
+  "short_name": "Rick & Morty with GraphQL & React js",
+  "name": "Rick & Morty with GraphQL & React js",
   "icons": [
     {
       "src": "favicon.ico",

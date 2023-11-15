@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link, useLocation } from 'react-router-dom';
 import BackBtn from './BackBtn';
 
-const FirstSection = ({ count = false, pages }) => {
+export default function FirstSection({ count = false, pages }) {
    const location = useLocation();
    return (
       <section>
@@ -36,5 +36,3 @@ const ButtonHome = styled.button`
 
    a { color: var(--txtColor); }
 `;
-
-export default FirstSection;

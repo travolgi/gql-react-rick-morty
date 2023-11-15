@@ -5,7 +5,7 @@ import { CHARACTER_BY_ID } from '../apollographql/queries';
 import Loader from '../components/Loader';
 import ErrorMessage from '../components/ErrorMessage';
 
-const Character = () => {
+export default function Character() {
    const { id } = useParams();
    const { loading, error, data } = useQuery(CHARACTER_BY_ID, {variables: {id: id} });
 
@@ -82,5 +82,3 @@ const Character = () => {
       );
    }
 }
-
-export default Character;

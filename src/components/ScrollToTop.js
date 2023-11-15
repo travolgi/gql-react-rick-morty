@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { scroolFadeIn } from '../theme/animations';
 import { useState } from 'react';
 
-const ScrollToTop = ({ refContainer }) => {
+export default function ScrollToTop({ refContainer }) {
    const [visible, setVisible] = useState(false);
    
    const container = refContainer.current;
@@ -45,5 +45,3 @@ const ButtonGoTop = styled.button`
       display: block !important;
    }
 `;
-
-export default ScrollToTop;

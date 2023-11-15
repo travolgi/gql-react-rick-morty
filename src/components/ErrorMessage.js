@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { bounce } from "../theme/animations";
 
-const ErrorMessage = ({ message }) => {
+export default function ErrorMessage({ message }) {
    return (
       <DivError>
          <p>Oh fuck Morty!</p>
@@ -20,5 +20,3 @@ const DivError = styled.div`
       animation: ${bounce} ease 2s infinite;
    }
 `;
-
-export default ErrorMessage;

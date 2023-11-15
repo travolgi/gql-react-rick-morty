@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-const Footer = () => {
+export default function Footer() {
    const currentYear = new Date().getFullYear();
    return (
       <FooterTag>
          <small>
-            &copy; developed by <a href="https://denielden.github.io" target="_blank" rel="noopener noreferrer">denie/den</a> {currentYear}
+            &copy; Developed by <a href="https://travolgi.it" target="_blank" rel="noopener noreferrer">Travolgi</a> {currentYear}
             <br />
-            source data: <a href="https://rickandmortyapi.com" target="_blank" rel="noopener noreferrer">rickandmortyapi</a>
+            Source data: <a href="https://rickandmortyapi.com" target="_blank" rel="noopener noreferrer">rickandmortyapi</a>
          </small>
       </FooterTag>
    );
@@ -20,5 +20,3 @@ const FooterTag = styled.footer`
    padding-top: 3rem;
    text-align: center;
 `;
-
-export default Footer;

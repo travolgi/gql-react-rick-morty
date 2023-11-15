@@ -5,7 +5,7 @@ import IconHamburger from '../img/icon-hamburger.svg';
 import { useState, useRef } from 'react';
 import Sidebar from './Sidebar';
 
-const ToggleNav = ({ theme }) => {
+export default function ToggleNav({ theme }) {
    const [expanded, setExpanded] = useState(false),
          handleToggle = () => setExpanded(!expanded);
 
@@ -44,5 +44,3 @@ const ButtonToggle = styled.button`
       background-image: url( ${IconClose} );
    }
 `;
-
-export default ToggleNav;
